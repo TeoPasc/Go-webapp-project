@@ -12,5 +12,5 @@ jobs:
         uses: robinst/trigger-workflow@v3
         with:
           repo: teopasc/go-webapp-deployment # Replace with your repository
-          workflow: containerize # Name of the workflow in the deployment repo
+          workflow: containerize
           ref: main 
