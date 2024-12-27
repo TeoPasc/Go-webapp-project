@@ -11,6 +11,6 @@ jobs:
       - name: Trigger deployment workflow
         uses: robinst/trigger-workflow@v3
         with:
-          repo: teopasc/go-webapp-deployment # Replace with your repository
-          workflow: containerize
+          repo: docker.io/teopascalev/go-web-project
+          workflow: Containerize
           ref: main 
