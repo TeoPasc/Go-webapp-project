@@ -33,6 +33,7 @@ jobs:
           go mod download
 
       - name: Run SAST
+        docker pull semgrep/semgrep:latest
         uses: chainguard/action-semgrep@v4 
 
       - name: Run Golangci-lint
