@@ -31,7 +31,7 @@ jobs:
           go mod download
 
       - name: Run SAST
-        uses: chainguard/action-semgrep@v4 
+        uses: semgrep/semgrep
 
       - name: Run Golangci-lint
         uses: golangci/golangci-lint-action@v3
