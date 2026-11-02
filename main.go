@@ -8,7 +8,7 @@ import (
 
 func main() {
         http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-                fmt.Fprintf(w, "Hello from Mondoo Engineer!\n")
+                fmt.Fprintf(w, "Hello from Engineer!\n")
         })
 
         log.Println("Server listening on :8080") 
